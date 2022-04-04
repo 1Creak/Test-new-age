@@ -1,0 +1,104 @@
+@mixin logo {
+    @media screen and (max-width:1000px) 
+                  and (min-width: 480px){
+        width: 130px;
+    }
+    @media screen and (max-width:480px){
+        width: 100%;
+        border-radius: 0;
+        margin: 20px 0px;
+    }
+}
+@mixin link {
+    @media screen and(max-width:666px)
+                  and (min-width: 480px){
+                    margin: 10px 0 10px 8px;
+    }
+}
+@mixin menu{
+    @media screen and(max-width:790px) {
+        flex-direction: column;
+        display: none;
+    }
+}
+@mixin border {
+    @media screen and (max-width:720px) {
+        border: none;
+    }
+}
+@mixin burger-menu{
+    @media screen and(min-width:790px) {
+        display: none;
+    }
+}
+@mixin column{
+    @media screen and(max-width:480px) {
+        flex-direction: column;
+    }
+}
+@mixin link-list-phone{
+    @media screen and(max-width:480px) {
+        display: flex;
+        flex-direction: column;
+        & li{
+            margin: 5px 0 10px 0px;
+        }
+    }
+}
+@mixin box{
+    @media screen and(max-width:480px) {
+        padding: 0 5%;
+    }
+}
+@mixin form{
+    @media screen and(max-width:500px) {
+        background-color: #eeeeee;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@mixin width {
+    @media screen and(max-width:500px) {
+        width: 100%;
+    }
+}
+@mixin btn {
+    @media screen and(max-width:500px) {
+        margin-left: 20px;
+    }
+}
+@mixin info{
+    @media screen and(max-width:500px) {
+            width: 100%;
+    }
+}
+@mixin gallery{
+    @media screen and(max-width:500px) {
+            grid-template-columns: repeat(2, 1fr);
+    }
+}
+@mixin gallery-btn{
+    @media screen and(min-width:500px) {
+            display: none;
+    }
+}
+@mixin footer-border{
+    @media screen and(max-width:500px) {
+        display: none;
+    }
+}
+@mixin footer-line-margin-light{
+    @media screen and(max-width:500px) {
+        margin: 10px 0;
+    }
+}
+@mixin hiddenImg{
+    @media screen and(max-width:500px) {
+        display: none;
+    }
+}
+@mixin test{
+    @media screen and(max-width:500px) {
+        flex-direction: column;
+    }
+}
