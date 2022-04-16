@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'roboto-regular';
-  src: url("roboto-regular"), url("../font/Roboto-Regular.ttf") format("ttf"), url("../font/Roboto-Bold.woff") format("woff");
+  src: url("roboto-regular"), url("../font/Roboto-Regular.ttf") format("ttf"), url("../font/Roboto-Regular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
@@ -15,6 +15,13 @@
 @font-face {
   font-family: 'aria-bold';
   src: url("aria-bold"), url("../font/ArialBold.ttf") format("ttf"), url("../font/ArialBold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'arialMt';
+  src: url("arialMt"), url("../font/arialMt.ttf") format("ttf"), url("../font/arialMt.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }

@@ -15,7 +15,16 @@ $(document).ready(function(){
             }
         })
     }
+    function modalWindow(open, close, window){
+        $(open).click(function(){
+            $(window).toggle('');
+        })
+        $(close).click(function(){
+            $(window).toggle('');
+        })
+    }
 
+    modalWindow($('#btn-popup'), $('#btn-close'), $('.popup'));
     hide($('#more'), $('.hidden'));
     hide($('#burger'), $('.nav__list'));
     toggleText($('#more'), 'HIDE');
